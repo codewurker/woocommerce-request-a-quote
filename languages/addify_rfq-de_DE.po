@@ -1,0 +1,1769 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Request a Quote for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-07 12:20+0000\n"
+"PO-Revision-Date: 2021-04-30 07:30+0000\n"
+"Last-Translator: Admin Addiy\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1"
+
+#: includes/quote/templates/mini-quote.php:37
+msgid " items in quote"
+msgstr ""
+"\n"
+"Artikel im Angebot"
+
+#: includes/quote/templates/mini-quote-dropdown.php:103
+msgid " View Quote"
+msgstr ""
+"\n"
+"Angebot anzeigen"
+
+#: front/templates/quote-details-my-account-old-quotes.php:22
+msgid " was placed on "
+msgstr ""
+"\n"
+"wurde aufgelegt"
+
+#: front/templates/quote-list-table.php:32
+#: front/templates/quote-details-my-account-old-quotes.php:20
+#: front/templates/quote-details-my-account-old-quotes.php:22
+msgid "#"
+msgstr "#"
+
+#. %s: label
+#: includes/class-af-r-f-q-quote-fields.php:600
+#, php-format
+msgid "%1$s size is too large. Max size for file is %2$s KB"
+msgstr ""
+"%1$s Größe ist zu groß. Die maximale Größe der Datei beträgt %2$s KB\n"
+
+#. %s: Attribute name.
+#: includes/class-af-r-f-q-quote.php:606
+#| msgid " is a required field!"
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] "ist ein Pflichtfeld!"
+msgstr[1] "ist ein Pflichtfeld!"
+
+#. %s: label
+#. %s: Customer email address.
+#: includes/class-af-r-f-q-quote-fields.php:575
+#: includes/class-af-r-f-q-email-controller.php:107
+#, php-format
+msgid "%s is not a valid email address"
+msgstr ""
+"% s ist keine gültige E-Mail-Adresse\n"
+
+#. %s: label
+#: includes/class-af-r-f-q-quote-fields.php:609
+#, php-format
+msgid "%s is not a valid phone number."
+msgstr ""
+"%s ist keine gültige Telefonnummer.\n"
+
+#: includes/class-af-r-f-q-quote-fields.php:551
+#, php-format
+msgid "%s is required field"
+msgstr ""
+"%s ist Pflichtfeld\n"
+
+#. %s: Label
+#: includes/pdf/templates/customer-info.php:23
+#: includes/emails/templates/customer-info.php:27
+#, php-format
+msgid "%s:"
+msgstr "%s:"
+
+#: front/class-af-r-f-q-front.php:770
+#: front/templates/quote-details-my-account.php:20
+#: admin/settings/email-settings.php:18
+#: admin/meta-boxes/quotes/quote-status.php:19
+msgid "Accepted"
+msgstr ""
+"Akzeptiert\n"
+
+#: front/templates/quote-list-table.php:21
+msgid "Action"
+msgstr "Aktion"
+
+#: admin/meta-boxes/fields/field-attribute.php:90
+msgid ""
+"Add a unique name for each quote field. It is also used as meta_key to store "
+"values in database. Once publish, you will not be able to modify it."
+msgstr ""
+"Fügen Sie für jedes Angebotsfeld einen eindeutigen Namen hinzu. Es wird auch "
+"als meta_key verwendet, um Werte in der Datenbank zu speichern. Nach der "
+"Veröffentlichung können Sie sie nicht mehr ändern.\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:174
+msgid "Add Comma separated file extensions. Ex. pdf,txt,jpg."
+msgstr ""
+"Fügen Sie durch Kommas getrennte Dateierweiterungen hinzu. Ex. pdf, txt, jpg."
+"\n"
+
+#: class-addify-request-for-quote.php:154
+#: class-addify-request-for-quote.php:155
+msgid "Add New Field"
+msgstr "Neues Feld hinzufügen"
+
+#: class-addify-request-for-quote.php:112
+#: class-addify-request-for-quote.php:113
+msgid "Add New Rule"
+msgstr "Neue Regel hinzufügen"
+
+#: admin/meta-boxes/fields/field-attribute.php:211
+msgid "Add Option(s) for fields types ( Select, Multi-Select and Radio )."
+msgstr ""
+"Option (en) für Feldtypen hinzufügen (Auswählen, Mehrfachauswahl und Radio)."
+"\n"
+
+#: admin/meta-boxes/quotes/quote-details.php:38
+msgid "Add product"
+msgstr "Produkt hinzufügen"
+
+#: admin/meta-boxes/quotes/quote-details.php:75
+msgid "Add product(s)"
+msgstr ""
+"Produkt (e) hinzufügen\n"
+
+#: front/templates/custom-button.php:27 front/templates/simple.php:27
+#: front/templates/simple-out-of-stock.php:27
+#: admin/meta-boxes/quotes/quote-details.php:65
+#: admin/meta-boxes/rules/new-quote-rule.php:409
+msgid "Add to Quote"
+msgstr ""
+"Zum Angebot hinzufügen\n"
+
+#. Author of the plugin
+msgid "Addify"
+msgstr "Addify"
+
+#: admin/settings/email-settings.php:29
+msgid "Additional Message"
+msgstr "Zusätzliche Nachricht"
+
+#: admin/settings/email-settings.php:15
+msgid "Admin (New Quote)"
+msgstr ""
+"Admin (Neues Zitat)\n"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/emails-setting.php:22
+msgid "Admin/Shop manager Email Address(es)"
+msgstr ""
+"E-Mail-Adresse (n) des Administrators / Shop-Managers\n"
+
+#: admin/meta-boxes/quotes/convert-quote-to-order.php:112
+msgid "Administrator"
+msgstr "Administrator"
+
+#: admin/settings/tabs/emails-setting.php:26
+msgid ""
+"All admin emails that are related to our module will be sent to this email "
+"address. If this email is empty then default admin email address is used. "
+"You can add more than one email addresses separated by comma (,)."
+msgstr ""
+"Alle administrativen E-Mails, die sich auf unser Modul beziehen, werden an "
+"diese E-Mail-Adresse gesendet. Wenn diese E-Mail-Adresse leer ist, wird die "
+"Standard-E-Mail-Adresse des Administrators verwendet. Sie können mehrere "
+"durch Komma (,) getrennte E-Mail-Adressen hinzufügen."
+
+#: class-addify-request-for-quote.php:164
+msgid "All Fields"
+msgstr ""
+"Alle Felder\n"
+
+#: admin/class-af-r-f-q-admin.php:363
+msgid "All Quote"
+msgstr ""
+"Alle zitieren\n"
+
+#: admin/class-af-r-f-q-admin.php:381
+msgid "ALL Quote Fields"
+msgstr ""
+"ALLE Anführungszeichenfelder\n"
+
+#: admin/class-af-r-f-q-admin.php:372
+msgid "All Quote Rules"
+msgstr ""
+"Alle Angebotsregeln\n"
+
+#: class-addify-request-for-quote.php:206 admin/class-af-r-f-q-admin.php:364
+msgid "All Quotes"
+msgstr "Alle Zitate"
+
+#: class-addify-request-for-quote.php:122
+msgid "All Rules"
+msgstr "Alle Regeln"
+
+#. Description of the plugin
+msgid ""
+"Allow customers to add product(s) to quote basket and ask for a quote by "
+"submitting a simple quote form."
+msgstr ""
+"Ermöglichen Sie Kunden, Produkte zum Angebotskorb hinzuzufügen und ein "
+"Angebot anzufordern, indem Sie ein einfaches Angebotsformular senden.\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:181
+msgid "Allowed File Size"
+msgstr ""
+"Zulässige Dateigröße\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:168
+msgid "Allowed File Types"
+msgstr ""
+"Zulässige Dateitypen\n"
+
+#: admin/settings/tabs/general.php:42
+msgid ""
+"Alternatively, You can add quote basket by placing the short code [addify-"
+"mini-quote]."
+msgstr ""
+"Alternativ können Sie einen Angebotskorb hinzufügen, indem Sie den "
+"Funktionscode [addify-mini-quote] eingeben.\n"
+
+#: front/templates/quote-table.php:112
+#: front/templates/quote-details-my-account.php:132
+msgid "Available on backorder"
+msgstr ""
+"Verfügbar bei Nachbestellung\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:40
+msgid "Billing Address 1"
+msgstr ""
+"Rechnungsadresse 1\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:41
+msgid "Billing Address 2"
+msgstr ""
+"Rechnungsadresse 2\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:42
+msgid "Billing City"
+msgstr ""
+"Abrechnungsstadt\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:39
+msgid "Billing Company"
+msgstr ""
+"Abrechnungsunternehmen\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:45
+msgid "Billing Email"
+msgstr ""
+"Abrechnung per E-Mail\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:37
+msgid "Billing First Name"
+msgstr ""
+"Abrechnung des Vornamens\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:38
+msgid "Billing Last Name"
+msgstr ""
+"Abrechnung Nachname\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:44
+msgid "Billing Phone"
+msgstr ""
+"Abrechnungstelefon\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:43
+msgid "Billing Postcode"
+msgstr "Abrechnungs-Postleitzahl"
+
+#: admin/class-af-r-f-q-admin.php:416
+msgid "Button Text"
+msgstr ""
+"Schaltflächentext\n"
+
+#: front/class-af-r-f-q-front.php:773
+#: front/templates/quote-details-my-account.php:23
+#: admin/meta-boxes/quotes/quote-status.php:22
+msgid "Cancelled"
+msgstr ""
+"Abgesagt\n"
+
+#: admin/settings/email-settings.php:22
+msgid "Cancelled/Rejected"
+msgstr ""
+"Abgebrochen / Abgelehnt\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:25
+msgid "Checkbox"
+msgstr ""
+"Kontrollkästchen\n"
+
+#: front/templates/quote-list-table.php:51
+#: front/templates/quote-details-my-account.php:242
+#: admin/meta-boxes/quotes/quote-details.php:81
+msgid "Convert to Order"
+msgstr ""
+"In Bestellung umwandeln\n"
+
+#: front/templates/quote-details-my-account.php:55
+msgid "Converted by"
+msgstr ""
+"Konvertiert von\n"
+
+#: front/class-af-r-f-q-front.php:771
+#: front/templates/quote-details-my-account.php:21
+#: admin/meta-boxes/quotes/quote-status.php:20
+msgid "Converted to Order"
+msgstr ""
+"In Bestellung umgewandelt\n"
+
+#: admin/settings/email-settings.php:19
+msgid "Converted to Order(Admin)"
+msgstr ""
+"In Bestellung konvertiert (Admin)\n"
+
+#: admin/settings/email-settings.php:20
+msgid "Converted to Order(Customer)"
+msgstr ""
+"In Bestellung umgewandelt (Kunde)\n"
+
+#: admin/meta-boxes/quotes/quote-details-table.php:20
+msgid "Cost"
+msgstr ""
+"Kosten\n"
+
+#: front/templates/quote-details-my-account.php:50
+#: admin/meta-boxes/quotes/quote-status.php:29
+msgid "Current Status"
+msgstr ""
+"Aktueller Status\n"
+
+#: admin/meta-boxes/rules/new-quote-rule.php:401
+msgid "Custom Button Label"
+msgstr "Benutzerdefinierte Tastenbeschriftung"
+
+#: admin/meta-boxes/rules/new-quote-rule.php:381
+msgid "Custom Button Link"
+msgstr "Benutzerdefinierter Button-Link"
+
+#. ID used to identify this section and with which to register options.
+#: admin/settings/settings.php:33 admin/settings/tabs/custom-message.php:15
+msgid "Custom Messages"
+msgstr ""
+"\n"
+"Benutzerdefinierte Nachrichten"
+
+#: includes/class-af-r-f-q-quote.php:891
+msgid "Customer"
+msgstr "Kunde"
+
+#: admin/class-af-r-f-q-admin.php:493
+msgid "Customer Email"
+msgstr "Kunden-E-Mail"
+
+#: admin/class-af-r-f-q-admin.php:222
+#: includes/pdf/templates/customer-info.php:16
+msgid "Customer Information"
+msgstr ""
+"Kundeninformation\n"
+
+#: admin/class-af-r-f-q-admin.php:492
+msgid "Customer Name"
+msgstr "Name des Kunden"
+
+#: admin/class-af-r-f-q-admin.php:418 admin/class-af-r-f-q-admin.php:449
+#: admin/class-af-r-f-q-admin.php:495 front/templates/quote-list-table.php:20
+msgid "Date"
+msgstr "Datum"
+
+#: front/class-af-r-f-q-front.php:772
+#: front/templates/quote-details-my-account.php:22
+#: admin/meta-boxes/quotes/quote-status.php:21
+msgid "Declined"
+msgstr "Abgelehnt"
+
+#: admin/settings/email-settings.php:21
+msgid "Declined/Products not available"
+msgstr "Abgelehnt / Produkte nicht verfügbar"
+
+#: admin/class-af-r-f-q-admin.php:445
+msgid "Default Value"
+msgstr "Standardwert"
+
+#: admin/class-af-r-f-q-admin.php:111
+msgid "Disable"
+msgstr ""
+"Deaktivieren\n"
+
+#: admin/class-af-r-f-q-admin.php:71
+msgid "Disable Quote"
+msgstr ""
+"Angebot deaktivieren\n"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/general.php:53
+msgid "Disable quote basket for user roles"
+msgstr ""
+"Deaktivieren Sie den Angebotskorb für Benutzerrollen\n"
+
+#: admin/settings/tabs/general.php:57
+msgid ""
+"Disable quote basket for user roles. Enable for all user roles by default."
+msgstr ""
+"Deaktivieren Sie den Angebotskorb für Benutzerrollen. Standardmäßig für alle "
+"Benutzerrollen aktivieren.\n"
+
+#: admin/class-af-r-f-q-admin.php:73
+msgid "Disable request a quote for above variation."
+msgstr ""
+"Deaktivieren Sie die Anforderung eines Angebots für die oben genannte "
+"Variante.\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:35
+msgid "Display Name"
+msgstr ""
+"Anzeigename\n"
+
+#: admin/class-af-r-f-q-admin.php:446 admin/class-af-r-f-q-admin.php:455
+msgid "Display Order"
+msgstr ""
+"Bestellung anzeigen\n"
+
+#: admin/meta-boxes/rules/new-quote-rule.php:413
+msgid "Display the above label on custom button, e.g \"Request a Quote\""
+msgstr ""
+"Das obige Etikett auf der benutzerdefinierten Schaltfläche anzeigen, z.B. "
+"\"Angebot anfordern\"."
+
+#: admin/meta-boxes/rules/new-quote-rule.php:348
+msgid "Display the above text when price is hidden, e.g \"Price is hidden\""
+msgstr ""
+"Den obigen Text anzeigen, wenn der Preis versteckt ist, z.B. \"Preis ist "
+"versteckt\"."
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/editors-settings.php:36
+#| msgid "Enable Divi Builder Compatibility"
+msgid "Divi Builder Compatibility"
+msgstr "Aktivieren Sie die Divi Builder-Kompatibilität"
+
+#: class-addify-request-for-quote.php:156
+#| msgid "Email Field"
+msgid "Edit Field"
+msgstr "E-Mail-Feld"
+
+#: class-addify-request-for-quote.php:198
+msgid "Edit Quote"
+msgstr ""
+"Angebot bearbeiten\n"
+
+#: class-addify-request-for-quote.php:114
+msgid "Edit Rule"
+msgstr "Regel bearbeiten"
+
+#. ID used to identify this section and with which to register options.
+#: admin/settings/tabs/editors-settings.php:15
+msgid "Editors & Builders Settings"
+msgstr ""
+"Einstellungen für Editoren und Builder\n"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/editors-settings.php:22
+msgid "Elementor Compatibility"
+msgstr "Elementor-Kompatibilität"
+
+#: admin/meta-boxes/fields/field-attribute.php:18
+#: admin/meta-boxes/fields/field-attribute.php:36
+msgid "Email"
+msgstr "Email"
+
+#: admin/settings/email-settings.php:40
+msgid ""
+"Email Settings for each status of quote. Messages will be display before "
+"quote table in emails."
+msgstr ""
+"EmailEmail-Einstellungen für jeden Status des Angebots. Nachrichten werden "
+"vor der Angebotstabelle in E-Mails angezeigt.\n"
+
+#: admin/settings/settings.php:35
+msgid "Emails"
+msgstr ""
+"E-Mails\n"
+
+#. ID used to identify this section and with which to register options.
+#: admin/settings/tabs/emails-setting.php:15
+msgid "Emails Settings"
+msgstr ""
+"E-Mail-Einstellungen\n"
+
+#: admin/class-af-r-f-q-admin.php:110
+msgid "Enable"
+msgstr ""
+"Aktivieren\n"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/general.php:22
+msgid "Enable (Out of stock)"
+msgstr ""
+"Aktivieren (nicht vorrätig)\n"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/general.php:84
+msgid "Enable Ajax add to Quote (Product Page)"
+msgstr "Aktivieren Sie Ajax add to quote (Produktseite)"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/general.php:98
+msgid "Enable Ajax add to Quote (Shop Page)"
+msgstr "Ajax zum Zitat hinzufügen aktivieren (Shop-Seite)"
+
+#: admin/settings/tabs/editors-settings.php:54
+#| msgid ""
+#| "Enable another solution if your add to cart is not replaced by plugin "
+#| "Button"
+msgid ""
+"Enable another solution if your add to cart is not replaced by plugin Button."
+msgstr ""
+"Aktivieren Sie eine andere Lösung, wenn Ihr Warenkorb nicht durch die Plugin-"
+"Schaltfläche ersetzt wird"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/captcha-settings.php:22
+msgid "Enable Captcha"
+msgstr "Captcha aktivieren"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/quote-attributes.php:84
+msgid "Enable convert to order"
+msgstr ""
+"Aktivieren Sie die Konvertierung in Bestellung\n"
+
+#: admin/settings/tabs/quote-attributes.php:88
+msgid ""
+"Enable convert to order for customers(Quote Status: In Process, Accepted."
+msgstr ""
+"Aktivieren Sie die Konvertierung in Bestellung für Kunden (Angebotsstatus: "
+"In Bearbeitung, Akzeptiert.\n"
+
+#: admin/settings/tabs/quote-attributes.php:102
+msgid ""
+"Enable display of quote converted (User/Admin) in my-account quote details."
+msgstr ""
+"Aktivieren Sie die Anzeige des konvertierten Angebots (Benutzer / "
+"Administrator) in den Angebotsdetails meines Kontos.\n"
+
+#: admin/settings/tabs/editors-settings.php:40
+msgid "Enable Divi Builder Compatibility."
+msgstr "Aktivieren Sie die Divi Builder-Kompatibilität."
+
+#: admin/settings/tabs/editors-settings.php:26
+#| msgid "Enable Elementor Compatibility"
+msgid "Enable Elementor compatibility"
+msgstr "Aktivieren Sie die Elementorkompatibilität"
+
+#: admin/settings/tabs/captcha-settings.php:26
+msgid "Enable Google reCaptcha field on the Request a Quote Form."
+msgstr ""
+"Aktivieren Sie das Google reCaptcha-Feld auf dem Angebotsanfrage-Formular."
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/quote-attributes.php:36
+#| msgid "Enable offered Price"
+msgid "Enable offered price"
+msgstr "Angebotenen Preis aktivieren"
+
+#: admin/settings/tabs/quote-attributes.php:41
+#| msgid "Enable offered Price and subtotal of offered price of Quote Basket"
+msgid "Enable offered price and subtotal(offered price) of quote basket."
+msgstr ""
+"Aktivieren Sie den angebotenen Preis und die Zwischensumme des angebotenen "
+"Preises des Angebotskorbs"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/quote-attributes.php:22
+#| msgid "Enable Product Price"
+msgid "Enable product price"
+msgstr "Produktpreis aktivieren"
+
+#: admin/settings/tabs/quote-attributes.php:26
+msgid "Enable product price, subtotal and total of quote basket."
+msgstr ""
+"Aktivieren Sie den Produktpreis, die Zwischensumme und den Gesamtbetrag des "
+"Angebotskorbs.\n"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/quote-attributes.php:98
+msgid "Enable quote converter display"
+msgstr ""
+"Aktivieren Sie die Anzeige des Angebotskonverters\n"
+
+#: admin/settings/tabs/quote-attributes.php:74
+msgid "Enable tax calculation of quote basket items."
+msgstr ""
+"Aktivieren Sie die Steuerberechnung für Angebotskorbpositionen.\n"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/quote-attributes.php:70
+msgid "Enable tax Display"
+msgstr ""
+"Steueranzeige aktivieren\n"
+
+#: admin/class-af-r-f-q-admin.php:106
+msgid "Enable/Disable"
+msgstr ""
+"Aktivieren deaktivieren\n"
+
+#: admin/settings/tabs/general.php:88
+#| msgid "Enable or Disable ajax add to quote on product page."
+msgid "Enable/Disable Ajax add to quote on product page."
+msgstr ""
+"Aktivieren oder deaktivieren Sie Ajax add to quote auf der Produktseite."
+
+#: admin/settings/tabs/general.php:102
+#| msgid "Enable or Disable ajax add to quote on shop page."
+msgid "Enable/Disable Ajax add to quote on shop page."
+msgstr "Aktivieren oder deaktivieren Sie Ajax add to quote auf der Shop-Seite."
+
+#: admin/settings/email-settings.php:26
+msgid "Enable/Disable Email"
+msgstr ""
+"E-Mail aktivieren / deaktivieren\n"
+
+#: admin/settings/tabs/general.php:26
+msgid ""
+"Enable/Disable request a quote button for out of stock products. (Note: It "
+"is compatible with simple and variable products only"
+msgstr ""
+"Aktivieren / Deaktivieren Sie die Schaltfläche zum Anfordern eines Angebots "
+"für nicht vorrätige Produkte. (Hinweis: Es ist nur mit einfachen und "
+"variablen Produkten kompatibel\n"
+
+#: admin/settings/tabs/quote-attributes.php:58
+msgid ""
+"Enter number in percent to increase the offered price from standard price of "
+"product. Leave empty for standard price."
+msgstr ""
+"Geben Sie die Zahl in Prozent ein, um den angebotenen Preis gegenüber dem "
+"Standardpreis des Produkts zu erhöhen. Zum Standardpreis leer lassen.\n"
+
+#: class-addify-request-for-quote.php:166
+msgid "Field Attributes"
+msgstr ""
+"Feldattribute\n"
+
+#: admin/class-af-r-f-q-admin.php:250
+msgid "Field Attributes and Values"
+msgstr ""
+"Feldattribute und Werte\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:139
+msgid "Field Default Value"
+msgstr ""
+"Feld Standardwert\n"
+
+#: class-addify-request-for-quote.php:153
+msgid "Field for Quote Rule"
+msgstr ""
+"Feld für Angebotsregel\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:114
+msgid "Field label"
+msgstr ""
+"Feldbezeichnung\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:84
+msgid "Field Name"
+msgstr ""
+"Feldbezeichnung\n"
+
+#: admin/class-af-r-f-q-admin.php:138
+msgid "Field name should be unique for each field."
+msgstr ""
+"Der Feldname sollte für jedes Feld eindeutig sein.\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:194
+msgid "Field Options"
+msgstr ""
+"Feldoptionen\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:156
+msgid "Field Placeholder"
+msgstr ""
+"Feld Platzhalter\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:97
+msgid "Field Type"
+msgstr ""
+"Feldtyp\n"
+
+#: class-addify-request-for-quote.php:152
+msgid "Fields for Request a Quote"
+msgstr ""
+"Felder für die Angebotsanfrage\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:20
+msgid "File"
+msgstr "Datei"
+
+#: admin/meta-boxes/fields/field-attribute.php:187
+msgid "File size in bytes 1KB = 1000 bytes and 1MB = 1000000 bytes"
+msgstr ""
+"Dateigröße in Bytes 1 KB = 1000 Bytes und 1 MB = 1000000 Bytes\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:32
+msgid "First Name"
+msgstr ""
+"Vorname\n"
+
+#: admin/settings/settings.php:31
+msgid "General"
+msgstr ""
+"Allgemeines\n"
+
+#. ID used to identify this section and with which to register options.
+#: admin/settings/tabs/general.php:15
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: front/templates/quote-list-table.php:66
+msgid "Go to shop"
+msgstr ""
+"Zum Laden gehen\n"
+
+#: admin/settings/settings.php:37
+msgid "Google Captcha"
+msgstr "Google Captcha"
+
+#. ID used to identify this section and with which to register options.
+#: admin/settings/tabs/captcha-settings.php:15
+#| msgid "Google reCaptcha Settings"
+msgid "Google Captcha Settings"
+msgstr "Google reCaptcha-Einstellungen"
+
+#: admin/settings/tabs/general.php:175
+#: admin/meta-boxes/rules/new-quote-rule.php:36
+msgid "Guest"
+msgstr ""
+"Gast\n"
+
+#: admin/settings/email-settings.php:28
+msgid "Heading of Email"
+msgstr ""
+"Überschrift der E-Mail\n"
+
+#: admin/meta-boxes/rules/new-quote-rule.php:356
+msgid "Hide Add to Cart Button"
+msgstr "Schaltfläche Zum Warenkorb hinzufügen ausblenden"
+
+#: admin/class-af-r-f-q-admin.php:415
+#: admin/meta-boxes/rules/new-quote-rule.php:321
+msgid "Hide Price"
+msgstr "Preis ausblenden"
+
+#: admin/meta-boxes/rules/new-quote-rule.php:336
+msgid "Hide Price Text"
+msgstr "Preistext ausblenden"
+
+#. Author URI of the plugin
+#| msgid "http://www.addifypro.com/"
+msgid "http://www.addifypro.com"
+msgstr "http://www.addifypro.com/"
+
+#. URI of the plugin
+msgid "https://woocommerce.com/products/request-a-quote-plugin/"
+msgstr "https://woocommerce.com/products/request-a-quote-plugin/"
+
+#: admin/settings/tabs/general.php:237
+msgid "Icon and Number of items"
+msgstr "Symbol und Anzahl der Elemente"
+
+#: front/class-af-r-f-q-front.php:769
+#: front/templates/quote-details-my-account.php:19
+#: admin/settings/email-settings.php:17
+#: admin/meta-boxes/quotes/quote-status.php:18
+msgid "In Process"
+msgstr ""
+"In Bearbeitung\n"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/quote-attributes.php:53
+msgid "Increase offered price"
+msgstr ""
+"Erhöhen Sie den angebotenen Preis\n"
+
+#: includes/class-af-r-f-q-quote-fields.php:525
+#| msgid "Invalid reCaptcha!"
+msgid "Invalid reCaptcha."
+msgstr "Ungültiges reCaptcha!"
+
+#. %s: Attribute name.
+#: includes/class-af-r-f-q-quote.php:596
+#, php-format
+msgid "Invalid value posted for %s"
+msgstr "Ungültiger Wert für% s"
+
+#: admin/meta-boxes/quotes/quote-details-table.php:19
+msgid "Item"
+msgstr ""
+"Artikel\n"
+
+#: admin/meta-boxes/rules/new-quote-rule.php:371
+msgid "Keep Add to Cart and add a new custom button"
+msgstr ""
+"Behalten Sie Add to Cart bei und fügen Sie eine neue benutzerdefinierte "
+"Schaltfläche"
+
+#: admin/meta-boxes/rules/new-quote-rule.php:365
+msgid "Keep Add to Cart button and add a new Quote Button"
+msgstr ""
+"Behalten Sie die Schaltfläche \"In den Warenkorb\" bei und fügen Sie eine "
+"neue Schaltfläche \"Angebot\" hinzu"
+
+#: admin/class-af-r-f-q-admin.php:442
+msgid "Label"
+msgstr "Label"
+
+#: admin/meta-boxes/fields/field-attribute.php:33
+msgid "Last Name"
+msgstr "Nachname"
+
+#: admin/meta-boxes/rules/new-quote-rule.php:393
+msgid "Link for custom button e.g \"http://www.example.com\""
+msgstr ""
+"Link für benutzerdefinierte Schaltfläche z.B. \"http://www.example.com\"."
+
+#: admin/class-af-r-f-q-admin.php:444
+msgid "Meta Key/ Field Name"
+msgstr ""
+"Metaschlüssel / Feldname\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:23
+msgid "Multi Select"
+msgstr ""
+"Mehrfachauswahl\n"
+
+#: class-addify-request-for-quote.php:41
+msgid ""
+"must be active for this plugin to work. Please install &amp; activate "
+"WooCommerce."
+msgstr ""
+"muss aktiv sein, damit dieses Plugin funktioniert. Bitte installieren Sie & "
+"amp; aktiviere WooCommerce.\n"
+
+#: class-addify-request-for-quote.php:157
+#| msgid "Name Field"
+msgid "New Field"
+msgstr "Name Feld"
+
+#: class-addify-request-for-quote.php:196
+#: class-addify-request-for-quote.php:197
+#: class-addify-request-for-quote.php:199
+msgid "New Quote"
+msgstr ""
+"Neues Zitat\n"
+
+#: class-addify-request-for-quote.php:115
+msgid "New Rule"
+msgstr "Neue Regel"
+
+#: admin/meta-boxes/fields/field-attribute.php:34
+msgid "Nickname"
+msgstr ""
+"Spitzname\n"
+
+#: admin/meta-boxes/quotes/quote-status.php:48
+#: admin/meta-boxes/rules/new-quote-rule.php:326
+msgid "No"
+msgstr "Nein"
+
+#: class-addify-request-for-quote.php:161
+msgid "No Field found"
+msgstr ""
+"Kein Feld gefunden\n"
+
+#: class-addify-request-for-quote.php:162
+msgid "No Field found in trash"
+msgstr ""
+"Kein Feld im Papierkorb gefunden\n"
+
+#: admin/meta-boxes/quotes/customer-info.php:121
+msgid "No file was uploaded by user."
+msgstr ""
+"Es wurde keine Datei vom Benutzer hochgeladen.\n"
+
+#: includes/class-af-r-f-q-quote.php:919
+msgid "No item found in quote basket."
+msgstr ""
+"Kein Artikel im Angebotskorb gefunden.\n"
+
+#: includes/quote/templates/mini-quote-dropdown.php:110
+#| msgid "No products in quote basket."
+msgid "No products in the Quote Basket."
+msgstr "Keine Produkte im Angebotskorb."
+
+#: class-addify-request-for-quote.php:203
+msgid "No Quote found"
+msgstr ""
+"Kein Zitat gefunden\n"
+
+#: class-addify-request-for-quote.php:204
+msgid "No quote found in trash"
+msgstr ""
+"Kein Zitat im Papierkorb gefunden\n"
+
+#: front/templates/quote-list-table.php:66
+msgid "No quote has been made yet."
+msgstr "Es wurde noch kein Angebot abgegeben."
+
+#: class-addify-request-for-quote.php:119
+msgid "No rule found"
+msgstr "Keine Regel gefunden"
+
+#: class-addify-request-for-quote.php:120
+msgid "No rule found in trash"
+msgstr "Keine Regel im Papierkorb gefunden"
+
+#: admin/templates/quote-details.php:82
+msgid "Note:"
+msgstr ""
+"Hinweis:\n"
+
+#: admin/settings/tabs/quote-attributes.php:59
+msgid ""
+"Note: offered price will be display according to settings of cart. "
+"(including/excluding tax)"
+msgstr ""
+"Hinweis: Der angebotene Preis wird gemäß den Einstellungen des Warenkorbs "
+"angezeigt. (einschließlich / ohne Steuern)\n"
+
+#: admin/settings/tabs/quote-attributes.php:42
+msgid ""
+"Note: offered price will be excluding tax if products prices are excluding "
+"tax and including tax if prices are including tax."
+msgstr ""
+"Hinweis: Der angebotene Preis enthält keine Steuern, wenn die Produktpreise "
+"keine Steuern enthalten, und einschließlich Steuern, wenn die Preise Steuern "
+"enthalten.\n"
+
+#: admin/meta-boxes/quotes/quote-details-table.php:152
+msgid ""
+"Note: Tax/Vat will be calculated on quote conversion to order but it is "
+"visible to customers."
+msgstr ""
+"Hinweis: Steuern / Mehrwertsteuer werden bei der Umrechnung des Angebots in "
+"eine Bestellung berechnet, sind jedoch für Kunden sichtbar.\n"
+
+#: admin/meta-boxes/quotes/quote-status.php:44
+msgid "Notify Customer"
+msgstr "Kunden benachrichtigen"
+
+#: admin/meta-boxes/fields/field-attribute.php:19
+msgid "Number"
+msgstr ""
+"Nummer\n"
+
+#: admin/meta-boxes/quotes/quote-details-table.php:21
+msgid "Off. Price"
+msgstr ""
+"Aus. Preis\n"
+
+#: admin/meta-boxes/quotes/quote-details-table.php:24
+msgid "Off. Subtotal"
+msgstr ""
+"Aus. Zwischensumme\n"
+
+#: front/templates/quote-table.php:36 front/templates/quote-table.php:131
+#: front/templates/quote-details-my-account.php:70
+#: front/templates/quote-details-my-account.php:144
+#: includes/pdf/templates/quote-contents.php:45
+#: includes/emails/templates/quote-contents.php:33
+msgid "Offered Price"
+msgstr ""
+"\n"
+"Angebotener Preis"
+
+#: front/templates/quote-totals-table.php:41
+#: front/templates/quote-totals-table.php:42
+#: front/templates/quote-details-my-account.php:210
+#: front/templates/quote-details-my-account.php:211
+msgid "Offered Price Subtotal"
+msgstr ""
+"Angebotspreis Zwischensumme\n"
+
+#: front/templates/quote-table.php:43
+#: front/templates/quote-details-my-account.php:77
+#: front/templates/quote-details-my-account.php:163
+msgid "Offered Subtotal"
+msgstr "Angebotene Zwischensumme"
+
+#: admin/templates/quote-details.php:18
+msgid "Order details"
+msgstr ""
+"Bestelldetails\n"
+
+#: admin/settings/settings.php:39
+msgid "Page builders"
+msgstr ""
+"Seitenersteller\n"
+
+#: front/class-af-r-f-q-front.php:768
+#: front/templates/quote-details-my-account.php:18
+#: admin/meta-boxes/quotes/quote-status.php:17
+msgid "Pending"
+msgstr ""
+"steht aus\n"
+
+#: admin/settings/email-settings.php:16
+msgid "Pending/New Quote"
+msgstr ""
+"Ausstehendes / neues Angebot\n"
+
+#: front/templates/addify-quote-request-page.php:142
+msgid "Place Quote"
+msgstr "Zitat platzieren"
+
+#: includes/class-af-r-f-q-quote.php:559
+msgid "Please choose product options&hellip;"
+msgstr ""
+"Bitte wählen Sie Produktoptionen & hellip;\n"
+
+#: includes/class-af-r-f-q-quote.php:912
+msgid "Post data should not be empty to create a quote."
+msgstr ""
+"Post-Daten sollten nicht leer sein, um ein Angebot zu erstellen.\n"
+
+#: front/templates/quote-table.php:33 front/templates/quote-table.php:120
+#: front/templates/quote-details-my-account.php:67
+#: front/templates/quote-details-my-account.php:138
+#: includes/pdf/templates/quote-contents.php:40
+#: includes/emails/templates/quote-contents.php:28
+msgid "Price"
+msgstr ""
+"Preis\n"
+
+#: front/templates/quote-details-my-account-old-quotes.php:30
+#: front/templates/quote-table.php:31 front/templates/quote-table.php:97
+#: front/templates/quote-details-my-account.php:65
+#: front/templates/quote-details-my-account.php:113
+#: admin/templates/addify-afrfq-edit-form.php:23
+#: admin/templates/quote-details.php:24
+#: includes/pdf/templates/quote-contents.php:30
+#: includes/emails/templates/quote-contents.php:21
+#: admin/meta-boxes/quotes/quote-details.php:46
+msgid "Product"
+msgstr "Produkt"
+
+#: admin/templates/addify-afrfq-edit-form.php:24
+msgid "Product SKU"
+msgstr "Produkt-SKU"
+
+#: admin/meta-boxes/quotes/quote-details-table.php:22
+msgid "Qty"
+msgstr ""
+"Menge\n"
+
+#: front/templates/quote-details-my-account-old-quotes.php:32
+#: front/templates/quote-table.php:38 front/templates/quote-table.php:136
+#: front/templates/quote-details-my-account.php:72
+#: front/templates/quote-details-my-account.php:149
+#: admin/templates/addify-afrfq-edit-form.php:25
+#: includes/pdf/templates/quote-contents.php:36
+#: includes/emails/templates/quote-contents.php:24
+#: admin/meta-boxes/quotes/quote-details.php:47
+msgid "Quantity"
+msgstr "Anzahl"
+
+#: includes/pdf/templates/pdf-header.php:33
+msgid "Quotation #:"
+msgstr ""
+"Zitat #:\n"
+
+#: class-addify-request-for-quote.php:195
+#: front/templates/quote-list-table.php:18
+msgid "Quote"
+msgstr "Angebot"
+
+#: front/templates/quote-details-my-account-old-quotes.php:20
+#: front/templates/quote-details-my-account-old-quotes.php:22
+msgid "Quote "
+msgstr "Angebot"
+
+#: admin/class-af-r-f-q-admin.php:491
+#: front/templates/quote-details-my-account.php:42
+msgid "Quote #"
+msgstr "Angebot #"
+
+#: admin/meta-boxes/quotes/customer-info.php:36
+msgid "Quote #:"
+msgstr "Angebot #:"
+
+#: admin/class-af-r-f-q-admin.php:240 admin/settings/settings.php:41
+msgid "Quote Attributes"
+msgstr ""
+"Attribute zitieren\n"
+
+#. ID used to identify this section and with which to register options.
+#: admin/settings/tabs/quote-attributes.php:15
+msgid "Quote Attributes Settings"
+msgstr ""
+"Einstellungen für Angebotsattribute\n"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/general.php:36
+msgid "Quote Basket Menu(s)"
+msgstr ""
+"Zitat Korb Menü (e)\n"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/general.php:67
+msgid "Quote Basket Style"
+msgstr "Zitat Korb-Stil"
+
+#: admin/settings/tabs/general.php:234
+msgid "Quote Basket with Dropdown"
+msgstr ""
+"\n"
+"Zitat Korb mit Dropdown"
+
+#: includes/pdf/templates/quote-contents.php:25
+msgid "Quote Contents"
+msgstr ""
+"Inhalt zitieren\n"
+
+#: includes/class-af-r-f-q-quote.php:796
+msgid "Quote Contents are empty."
+msgstr ""
+"Zitat Inhalt ist leer.\n"
+
+#: includes/class-af-r-f-q-pdf-controller.php:204
+#: includes/class-af-r-f-q-email-controller.php:355
+#: front/templates/quote-details-my-account.php:46
+msgid "Quote Date"
+msgstr "Angebotsdatum"
+
+#: admin/class-af-r-f-q-admin.php:231
+#: front/templates/quote-details-my-account-old-quotes.php:24
+#: front/templates/quote-details-my-account.php:60
+msgid "Quote Details"
+msgstr "Details zum Angebot"
+
+#: class-addify-request-for-quote.php:167
+msgid "Quote field published"
+msgstr "Angebotsfeld veröffentlicht"
+
+#: class-addify-request-for-quote.php:168
+msgid "Quote field updated"
+msgstr ""
+"Angebotsfeld aktualisiert\n"
+
+#: class-addify-request-for-quote.php:165 admin/class-af-r-f-q-admin.php:382
+msgid "Quote Fields"
+msgstr ""
+"Felder zitieren\n"
+
+#: admin/meta-boxes/rules/new-quote-rule.php:3
+msgid "Quote for User Roles"
+msgstr "Angebot für Benutzerrollen"
+
+#: includes/class-af-r-f-q-quote.php:789
+msgid "Quote ID is required to convert a quote to order."
+msgstr ""
+"Die Angebots-ID ist erforderlich, um ein Angebot in eine Bestellung "
+"umzuwandeln.\n"
+
+#. %s: Product name
+#: includes/class-af-r-f-q-ajax-controller.php:723
+msgid "Quote is not available for selected variation."
+msgstr ""
+"Für ausgewählte Varianten ist kein Angebot verfügbar.\n"
+
+#. %s: Product name
+#: includes/class-af-r-f-q-ajax-controller.php:828
+#, php-format
+msgid "Quote is not available for “%s”."
+msgstr ""
+"Das Angebot ist für \"% s\" nicht verfügbar.\n"
+
+#: includes/class-af-r-f-q-quote.php:564
+msgid "Quote is not permitted for selected variation &hellip;"
+msgstr ""
+"Für ausgewählte Variationen ist kein Angebot zulässig & hellip;\n"
+
+#. %s: Product name
+#: includes/class-af-r-f-q-ajax-controller.php:275
+#, php-format
+msgid "Quote is not permitted for “%s”."
+msgstr ""
+"Ein Angebot ist für \"% s\" nicht zulässig.\n"
+
+#: includes/class-af-r-f-q-pdf-controller.php:200
+#: includes/class-af-r-f-q-email-controller.php:351
+msgid "Quote Number"
+msgstr ""
+"Angebotsnummer\n"
+
+#: class-addify-request-for-quote.php:208
+#| msgid "Date Published"
+msgid "Quote published"
+msgstr "Datum der Veröffentlichung"
+
+#: admin/meta-boxes/rules/new-quote-rule.php:85
+msgid "Quote Rule for Selected Categories"
+msgstr "Angebotsregel für ausgewählte Kategorien"
+
+#: admin/meta-boxes/rules/new-quote-rule.php:58
+msgid "Quote Rule for Selected Products"
+msgstr "Angebotsregel für ausgewählte Produkte"
+
+#: class-addify-request-for-quote.php:125
+msgid "Quote rule published"
+msgstr ""
+"Angebotsregel veröffentlicht\n"
+
+#: class-addify-request-for-quote.php:126
+msgid "Quote rule updated"
+msgstr ""
+"Angebotsregel aktualisiert\n"
+
+#: admin/class-af-r-f-q-admin.php:373
+msgid "Quote Rules"
+msgstr ""
+"Angebotsregeln\n"
+
+#: admin/class-af-r-f-q-admin.php:494
+msgid "Quote Status"
+msgstr ""
+"Angebotsstatus\n"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/custom-message.php:22
+msgid "Quote Submitted successfully Message"
+msgstr ""
+"\n"
+"Zitat erfolgreich übermittelt Nachricht"
+
+#: front/templates/addify-quote-request-page.php:95
+#: front/templates/quote-details-my-account.php:196
+msgid "Quote totals"
+msgstr ""
+"Angebotssummen\n"
+
+#: class-addify-request-for-quote.php:209
+#: includes/class-af-r-f-q-ajax-controller.php:498
+msgid "Quote updated"
+msgstr ""
+"Zitat aktualisiert\n"
+
+#: admin/meta-boxes/quotes/customer-info.php:48
+msgid "Quote user:"
+msgstr ""
+"Benutzer zitieren:\n"
+
+#: class-addify-request-for-quote.php:194
+#: class-addify-request-for-quote.php:207 front/class-af-r-f-q-front.php:746
+#: front/class-af-r-f-q-front.php:757
+msgid "Quotes"
+msgstr "Zitate"
+
+#: admin/meta-boxes/fields/field-attribute.php:24
+msgid "Radio"
+msgstr "Radio"
+
+#: includes/class-af-r-f-q-quote-fields.php:530
+#| msgid "reCaptcha is required!"
+msgid "reCaptcha is required."
+msgstr "reCaptcha ist erforderlich!"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/general.php:126
+#| msgid "Redirect After Quote Submission"
+msgid "Redirect after Quote Submission"
+msgstr "Nach Angebotsabgabe umleiten"
+
+#: admin/settings/tabs/general.php:130
+#| msgid "Redirect to any page after Quote is submitted successfully"
+msgid "Redirect to any page after quote is submitted successfully."
+msgstr ""
+"Weiterleiten zu einer beliebigen Seite, nachdem das Angebot erfolgreich "
+"gesendet wurde"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/general.php:112
+msgid "Redirect to Quote Page"
+msgstr "Zur Angebotsseite umleiten"
+
+#: admin/settings/tabs/general.php:116
+#| msgid "Redirect to Quote page after a product added to Quote successfully."
+msgid "Redirect to quote page after a product added to quote successfully."
+msgstr ""
+"Weiterleiten zur Angebotsseite, nachdem ein Produkt erfolgreich zum Angebot "
+"hinzugefügt wurde."
+
+#: front/templates/quote-table.php:75
+#: includes/quote/templates/mini-quote-dropdown.php:63
+msgid "Remove this item"
+msgstr "Dieses Element entfernen"
+
+#: admin/meta-boxes/rules/new-quote-rule.php:362
+msgid "Replace Add to Cart button with a Quote Button"
+msgstr ""
+"Schaltfläche \"In den Warenkorb legen\" durch eine Schaltfläche \"Zitat\" "
+"ersetzen"
+
+#: admin/meta-boxes/rules/new-quote-rule.php:368
+msgid "Replace Add to Cart with custom button"
+msgstr "In den Warenkorb legen durch benutzerdefinierte Schaltfläche ersetzen"
+
+#: class-addify-request-for-quote.php:245 admin/class-af-r-f-q-admin.php:352
+#: admin/class-af-r-f-q-admin.php:353
+msgid "Request a Quote"
+msgstr "Angebot anfordern"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/emails-setting.php:36
+msgid "Request a Quote Emails"
+msgstr ""
+"Fordern Sie eine Angebots-E-Mail an\n"
+
+#. Name of the plugin
+msgid "Request a Quote for WooCommerce"
+msgstr "Angebot für WooCommerce anfordern"
+
+#: admin/settings/settings.php:28
+#| msgid "Request a Quote Page Settings"
+msgid "Request a Quote Settings"
+msgstr "Fordern Sie eine Angebotsseiteneinstellung an"
+
+#: class-addify-request-for-quote.php:123
+msgid "Request for Quote"
+msgstr "Kostenvoranschlag anfordern"
+
+#: class-addify-request-for-quote.php:111
+msgid "Request for Quote Rule"
+msgstr "Regeln für die Angebotsanfrage"
+
+#: class-addify-request-for-quote.php:110
+msgid "Request for Quote Rules"
+msgstr "Regeln für die Angebotsanfrage"
+
+#: class-addify-request-for-quote.php:244
+msgid "request-a-quote"
+msgstr "Anfrage-an-Zitat"
+
+#: admin/class-af-r-f-q-admin.php:115 admin/class-af-r-f-q-admin.php:448
+msgid "Required"
+msgstr ""
+"Erforderlich\n"
+
+#: front/templates/addify-quote-request-page.php:153
+msgid "Return To Shop"
+msgstr "Zurück zum Geschäft"
+
+#: class-addify-request-for-quote.php:124 admin/class-af-r-f-q-admin.php:417
+msgid "Rule Priority"
+msgstr "Regel Priorität"
+
+#: admin/class-af-r-f-q-admin.php:209
+msgid "Rule Settings"
+msgstr "Regel-Einstellungen"
+
+#: class-addify-request-for-quote.php:159
+msgid "Search Field"
+msgstr ""
+"Suchfeld\n"
+
+#: class-addify-request-for-quote.php:201
+msgid "Search Quote"
+msgstr ""
+"Suchangebot\n"
+
+#: class-addify-request-for-quote.php:117
+msgid "Search Rule"
+msgstr "Suchregel"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/captcha-settings.php:50
+msgid "Secret Key"
+msgstr "Geheimer Schlüssel"
+
+#: admin/meta-boxes/quotes/quote-status.php:52
+msgid "Select \"Yes\" to notify customer via email."
+msgstr ""
+"Wählen Sie \"Ja\", um den Kunden per E-Mail zu benachrichtigen.\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:22
+msgid "Select (Dropdown)"
+msgstr ""
+"Dropdown-Liste\n"
+
+#: admin/settings/tabs/general.php:41
+#| msgid ""
+#| "Select Menu where you want to show Mini Quote Basket. If there is no menu "
+#| "then you have to create menu in WordPress menus otherwise mini quote "
+#| "basket will not show."
+msgid ""
+"Select Menu where you want to show Mini quote Basket. If there is no menu "
+"then you have to create menu in WordPress menus otherwise mini quote basket "
+"will not show."
+msgstr ""
+"Wählen Sie das Menü, in dem Sie den Mini-Angebotskorb anzeigen möchten. Wenn "
+"es kein Menü gibt, müssen Sie das Menü in WordPress-Menüs erstellen, sonst "
+"wird der Mini-Angebotskorb nicht angezeigt."
+
+#: admin/settings/tabs/general.php:72
+#| msgid "Select to show dropdown or icon with number of items in Basket"
+msgid "Select to show drop down or icon with number of items in Basket."
+msgstr ""
+"Wählen Sie diese Option, um ein Dropdown-Menü oder ein Symbol mit der Anzahl "
+"der Elemente im Warenkorb anzuzeigen"
+
+#. %s: label
+#: includes/class-af-r-f-q-quote-fields.php:594
+#, php-format
+msgid ""
+"Selected file type is not allowed for %1$s. Allowed extensions of file are "
+"%2$s"
+msgstr ""
+"Der ausgewählte Dateityp ist für% 1 $ s nicht zulässig. Zulässige "
+"Dateierweiterungen sind% 2 $ s\n"
+
+#: admin/class-af-r-f-q-admin.php:390 admin/class-af-r-f-q-admin.php:391
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/class-af-r-f-q-admin.php:406
+msgid "Settings saved successfully."
+msgstr "Einstellungen erfolgreich gespeichert."
+
+#: admin/meta-boxes/fields/field-attribute.php:49
+msgid "Shipping Address 1"
+msgstr ""
+"Lieferadresse 1\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:50
+msgid "Shipping Address 2"
+msgstr "Lieferadresse 2"
+
+#: admin/meta-boxes/fields/field-attribute.php:51
+msgid "Shipping City"
+msgstr "Versandstadt"
+
+#: admin/meta-boxes/fields/field-attribute.php:48
+msgid "Shipping Company"
+msgstr "Versandunternehmen"
+
+#: admin/meta-boxes/fields/field-attribute.php:54
+msgid "Shipping Email"
+msgstr "Versand-E-Mail"
+
+#: admin/meta-boxes/fields/field-attribute.php:46
+msgid "Shipping First Name"
+msgstr ""
+"Versand Vorname\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:47
+msgid "Shipping Last Name"
+msgstr ""
+"Versand Nachname\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:53
+msgid "Shipping Phone"
+msgstr ""
+"Versand Telefon\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:52
+msgid "Shipping Postcode"
+msgstr ""
+"Postleitzahl des Versands\n"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/captcha-settings.php:36
+msgid "Site Key"
+msgstr "Standort-Schlüssel"
+
+#: front/class-af-r-f-q-front.php:167 front/class-af-r-f-q-front.php:186
+msgid "Site security violated."
+msgstr ""
+"Site-Sicherheit verletzt.\n"
+
+#: front/templates/quote-details-my-account-old-quotes.php:31
+#: includes/pdf/templates/quote-contents.php:33
+msgid "SKU"
+msgstr "SKU"
+
+#: admin/templates/quote-items-table-row.php:36
+#: admin/meta-boxes/quotes/quote-details-table.php:78
+msgid "SKU:"
+msgstr ""
+"Artikelnummer:\n"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/editors-settings.php:50
+msgid "Solution 2"
+msgstr ""
+"Lösung 2\n"
+
+#: includes/class-af-r-f-q-quote.php:642
+msgid "Sorry, this product cannot be purchased."
+msgstr ""
+"Dieses Produkt kann leider nicht gekauft werden.\n"
+
+#: admin/class-af-r-f-q-admin.php:447 front/templates/quote-list-table.php:19
+msgid "Status"
+msgstr "Status"
+
+#: admin/settings/email-settings.php:27
+msgid "Subject of Email"
+msgstr ""
+"Betreff der E-Mail\n"
+
+#: front/templates/quote-table.php:40 front/templates/quote-table.php:157
+#: front/templates/quote-table.php:167
+#: front/templates/quote-details-my-account.php:74
+#: front/templates/quote-details-my-account.php:158
+#: front/templates/quote-details-my-account.php:202
+#: includes/quote/templates/mini-quote-dropdown.php:95
+#: admin/meta-boxes/quotes/quote-details-table.php:23
+msgid "Subtotal"
+msgstr ""
+"Zwischensumme\n"
+
+#: includes/pdf/templates/quote-contents.php:106
+#: includes/emails/templates/quote-contents.php:97
+msgid "Subtotal(offered)"
+msgstr ""
+"Zwischensumme (angeboten)\n"
+
+#: includes/emails/templates/quote-contents.php:87
+msgid "Subtotal(Standard)"
+msgstr ""
+"Zwischensumme (Standard)\n"
+
+#: front/templates/quote-totals-table.php:34
+#: front/templates/quote-totals-table.php:35
+#: front/templates/quote-details-my-account.php:201
+#: includes/pdf/templates/quote-contents.php:95
+msgid "Subtotal(standard)"
+msgstr ""
+"Zwischensumme (Standard)\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:26
+#: admin/meta-boxes/fields/field-attribute.php:127
+msgid "Terms & Conditions"
+msgstr ""
+"Zwischensumme (Standard)\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:17
+msgid "Text"
+msgstr ""
+"Text\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:21
+msgid "Textarea"
+msgstr ""
+"Textbereich\n"
+
+#: admin/settings/tabs/general.php:73
+msgid ""
+"The mini quote design may not work properly for some page builders/themes. "
+"Alternatively, you can use the icon only layout or override the mini quote "
+"template by copying it to yourtheme/woocommerce/addify/rfq/quote/mini-quote-"
+"dropdown.php"
+msgstr ""
+"Das Mini-Zitat-Design funktioniert bei einigen Seitenerstellern / Themen "
+"möglicherweise nicht richtig. Alternativ können Sie das Layout nur für "
+"Symbole verwenden oder die Mini-Angebotsvorlage überschreiben, indem Sie sie "
+"in Ihr Thema / woocommerce / addify / rfq / quote / mini-quote-dropdown.php "
+"kopieren\n"
+
+#: admin/settings/tabs/captcha-settings.php:54
+msgid ""
+"This is Google reCaptcha secret key, you can get this from google. Without "
+"this key google reCaptcha will not work."
+msgstr ""
+"Dies ist der geheime Schlüssel von Google reCaptcha, den Sie von Google "
+"erhalten können. Ohne diesen Schlüssel wird Google reCaptcha nicht "
+"funktionieren."
+
+#: admin/settings/tabs/captcha-settings.php:40
+#| msgid ""
+#| "This is Google reCaptcha site key, you can get this from google. Without "
+#| "this key google reCaptcha will not work."
+msgid ""
+"This is Google reCaptcha site key, you can get this from Google. Without "
+"this key Google reCaptcha will not work."
+msgstr ""
+"Dies ist der geheime Schlüssel für Google reCaptcha, den Sie von Google "
+"erhalten können. Ohne diesen Schlüssel wird Google reCaptcha nicht "
+"funktionieren."
+
+#: admin/settings/tabs/custom-message.php:26
+msgid ""
+"This message will appear on quote submission page, when user submit quote."
+msgstr ""
+"Diese Meldung erscheint auf der Seite zur Angebotsabgabe, wenn der Benutzer "
+"ein Angebot abgibt."
+
+#: admin/settings/tabs/custom-message.php:40
+#| msgid "This text will be shown for View Quote Basket Button"
+msgid "This text will be shown for view quote basket button."
+msgstr ""
+"Dieser Text wird für die Schaltfläche \"Angebotskorb anzeigen\" angezeigt"
+
+#: admin/meta-boxes/quotes/quote-details-table.php:18
+msgid "Thumbnail"
+msgstr ""
+"Miniaturansicht\n"
+
+#: front/templates/quote-totals-table.php:66
+#: front/templates/quote-details-my-account.php:228
+#: admin/templates/quote-details.php:25
+msgid "Total"
+msgstr ""
+"Gesamt\n"
+
+#: front/templates/quote-totals-table.php:65
+#: front/templates/quote-details-my-account.php:227
+#: includes/pdf/templates/quote-contents.php:128
+#: includes/emails/templates/quote-contents.php:117
+msgid "Total(standard)"
+msgstr ""
+"Gesamt (Standard)\n"
+
+#: admin/class-af-r-f-q-admin.php:443
+msgid "Type"
+msgstr ""
+"Art\n"
+
+#: front/templates/quote-table.php:181
+msgid "Update Quote"
+msgstr ""
+"Angebot aktualisieren\n"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/general.php:140
+msgid "URL to Redirect"
+msgstr ""
+"URL zur Weiterleitung\n"
+
+#: admin/settings/tabs/general.php:144
+#| msgid "URL to Redirect after quote is submitted successfully"
+msgid "URL to redirect after quote is submitted successfully."
+msgstr "URL zur Weiterleitung nach erfolgreicher Übermittlung des Angebots"
+
+#: admin/class-af-r-f-q-admin.php:414
+msgid "User Roles"
+msgstr ""
+"Benutzerregeln\n"
+
+#: admin/meta-boxes/fields/field-attribute.php:31
+msgid "Username"
+msgstr ""
+"Nutzername\n"
+
+#: front/templates/quote-details-my-account.php:220
+msgid "Vat"
+msgstr ""
+"Mehrwertsteuer \n"
+
+#: includes/emails/templates/quote-contents.php:107
+msgid "Vat(Standard)"
+msgstr ""
+"Mehrwertsteuer (Standard)\n"
+
+#: front/templates/quote-totals-table.php:58
+#: front/templates/quote-totals-table.php:59
+#: front/templates/quote-details-my-account.php:219
+#: includes/pdf/templates/quote-contents.php:117
+msgid "Vat(standard)"
+msgstr ""
+"Mehrwertsteuer (Standard)\n"
+
+#: front/templates/quote-list-table.php:43
+msgid "View"
+msgstr "Siehe"
+
+#: class-addify-request-for-quote.php:158
+msgid "View Field"
+msgstr ""
+"Ansichtsfeld\n"
+
+#: includes/class-af-r-f-q-email-controller.php:391
+msgid "View File"
+msgstr ""
+"Datei ansehen\n"
+
+#: class-addify-request-for-quote.php:200 includes/class-af-r-f-q-quote.php:637
+#: includes/quote/templates/mini-quote.php:24
+#: includes/quote/templates/mini-quote.php:34
+msgid "View Quote"
+msgstr "Zitat ansehen"
+
+#. ID used to identify the field throughout the theme.
+#: admin/settings/tabs/custom-message.php:36
+msgid "View Quote Basket Button Text"
+msgstr "Anzeigen des Warenkorb-Schaltflächentextes"
+
+#: class-addify-request-for-quote.php:116
+msgid "View Rule"
+msgstr "Regel anzeigen"
+
+#: class-addify-request-for-quote.php:41
+msgid "WooCommerce Request a Quote plugin is inactive."
+msgstr ""
+"WooCommerce Request a Quote-Plugin ist inaktiv.\n"
+
+#: admin/meta-boxes/quotes/quote-status.php:49
+#: admin/meta-boxes/rules/new-quote-rule.php:327
+msgid "Yes"
+msgstr "Ja"
+
+#. %s: product name
+#: includes/class-af-r-f-q-quote.php:626
+#, php-format
+msgid "You cannot add another \"%s\" to your quote."
+msgstr ""
+"Sie können Ihrem Angebot keine weiteren \"% s\" hinzufügen.\n"
+
+#: includes/class-af-r-f-q-quote.php:1031
+msgid "Your quote has been submitted successfully."
+msgstr ""
+"Ihr Angebot wurde erfolgreich eingereicht.\n"
+
+#: front/templates/addify-quote-request-page.php:152
+msgid "Your quote is currently empty."
+msgstr "Ihr Angebot ist derzeit leer."
+
+#. translators:%2$s: Customer billing full name
+#: includes/class-af-r-f-q-quote.php:898
+#, php-format
+msgid "Your Quote# %1$s has been converted to Order# %2$s."
+msgstr ""
+"Ihr Angebot #% 1 $ s wurde in Bestellung #% 2 $ s konvertiert.\n"
+
+#. %s: Product name
+#: includes/class-af-r-f-q-ajax-controller.php:615
+#: includes/class-af-r-f-q-ajax-controller.php:727
+#: includes/class-af-r-f-q-ajax-controller.php:832
+#, php-format
+msgid "“%s” has been added to your quote."
+msgstr ""
+"\"%S\" wurde Ihrem Angebot hinzugefügt.\n"
+
+#. %s: Product name
+#: includes/class-af-r-f-q-ajax-controller.php:902
+#, php-format
+msgid "“%s” has been removed from quote basket."
+msgstr ""
+"\"%S\" wurde aus dem Angebotskorb entfernt.\n"
+
+#. %s: Product name
+#: includes/class-af-r-f-q-ajax-controller.php:611
+#, php-format
+msgid "“%s” has not been added to your quote."
+msgstr ""
+"\"%S\" wurde Ihrem Angebot nicht hinzugefügt.\n"

@@ -1,0 +1,55 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">addify_quote</custom-type>
+  </custom-types>
+  <custom-fields>
+    <custom-field action="translate">afrfq_hide_products</custom-field>
+    <custom-field action="translate">afrfq_hide_categories</custom-field>
+    <custom-field action="translate">afrfq_apply_on_all_products</custom-field>
+    <custom-field action="translate">afrfq_apply_on_oos_products</custom-field>
+    <custom-field action="translate">afrfq_hide_user_role</custom-field>
+    <custom-field action="translate">afrfq_is_hide_price</custom-field>
+    <custom-field action="translate">afrfq_hide_price_text</custom-field>
+    <custom-field action="translate">afrfq_is_hide_addtocart</custom-field>
+    <custom-field action="translate">afrfq_custom_button_text</custom-field>
+    <custom-field action="translate">afrfq_custom_button_link</custom-field>
+    <custom-field action="translate">quote_contents</custom-field>
+    <custom-field action="translate">_customer_user</custom-field>
+    <custom-field action="translate">quote_status</custom-field>
+    <custom-field action="translate">afrfq_field_name</custom-field>
+    <custom-field action="translate">afrfq_field_type</custom-field>
+    <custom-field action="translate">afrfq_field_label</custom-field>
+    <custom-field action="translate">afrfq_field_value</custom-field>
+    <custom-field action="translate">afrfq_field_placeholder</custom-field>
+    <custom-field action="translate">afrfq_file_types</custom-field>
+    <custom-field action="translate">afrfq_file_size</custom-field>
+    <custom-field action="translate">afrfq_field_options</custom-field>
+    <custom-field action="translate">afrfq_field_enable</custom-field>
+    <custom-field action="translate">afrfq_field_terms</custom-field>
+    <custom-field action="translate">afrfq_field_required</custom-field>
+    <custom-field action="translate">afrfq_field_83</custom-field>
+    <custom-field action="translate">afrfq_field_84</custom-field>
+    <custom-field action="translate">afrfq_field_85</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="afrfq_backrgound_color"/>
+    <key name="afrfq_basket_option"/>
+    <key name="afrfq_company_address"/>
+    <key name="afrfq_company_logo"/>
+    <key name="afrfq_company_name_text"/>
+    <key name="afrfq_customer_roles"/>
+    <key name="afrfq_enable_convert_order"/>
+    <key name="afrfq_enable_converted_by"/>
+    <key name="afrfq_enable_off_price"/>
+    <key name="afrfq_enable_off_price_increase"/>
+    <key name="afrfq_enable_pro_price"/>
+    <key name="afrfq_enable_tax"/>
+    <key name="afrfq_enable_term_and_condition"/>
+    <key name="afrfq_pdf_select_layout"/>
+    <key name="afrfq_redirect_after_submission"/>
+    <key name="afrfq_redirect_to_quote"/>
+    <key name="afrfq_redirect_url"/>
+    <key name="afrfq_term_and_condition_text"/>
+    <key name="afrfq_text_color_for_background"/>
+  </admin-texts>
+</wpml-config>

@@ -1,0 +1,224 @@
+*** WooCommerce Request a Quote Plugin Change log ***
+
+2024-03-02 - version 2.6.3
+* Fix - Fixed quote page creation issue.
+* Fix - Typo fixed in PDF file.
+* Add - Add enable or disable PDF download for customers.
+
+2024-01-29 - version 2.6.2
+* Fix - Multiple Qoute Page Creation Issue.
+
+2024-01-24 - version 2.6.1
+* Fix - Qoute Page Creation Issue.
+
+2024-01-05 - version 2.6.0
+* Feature - Qoute PDF.
+
+2023-08-16 - version 2.5.1
+* Fix - Typo fixes.
+
+
+2023-08-10 - version 2.5.0
+* Update - Compatible with WooCommerce High-Performance Order Storage (HPOS).
+* Update - Compatibility updated for latest versions of WooCommerce and WordPress.
+
+2023-03-31 - version 2.4.9
+* Fix - Blocked access to quote page via direct link.
+* Fix - Fixed translation issue for "SKU".
+
+2023-03-28 - version 2.4.8
+* Add - Added quote information on order detail page when quote is converted to order.
+* Add - Added order ID on quote detail page when a quote is converted to order.
+
+2023-03-27 - version 2.4.7
+* Fix - Fixed double Tax bug on quote page.
+* Fix - Fixed nonce issue when customer converts quote to order.
+* Update - Force standard price to order when offered price is not set in admin quote details page. 
+
+2023-02-10 - version 2.4.6
+* Fix - Typo fixed in quote rules.
+* Fix - Fixed bug with extra "li" added in menu.
+* Other - Improvement in mini quote basket design.
+
+2023-01-13 - version 2.4.5
+* Fix - Fixed uploaded files issue.
+
+2023-01-12 - version 2.4.4
+* Fixed "Site security violated." message issue.
+
+2022-11-14 - version 2.4.3
+* Feature - Rest Api for RFQ rules (GET only).
+* Feature - Rest Api for RFQ quotes( GET, Delete, update and Create).
+* Fix - Fixed the issue of undefined method in RFQ addons compatibility class.
+* Fix - Fixed nonce issues.
+
+2022-04-25 - version 2.4.2
+* Update - Moved the Request a quote menu and related sub-menu's in WooCommerce sub-menu.
+
+2022-02-04 - version 2.4.1
+* Fix - Fixed issue with custom button link.
+
+2021-12-20 - version 2.4.0
+* Update - Compatiblity with WooCommerce quick view and flatsome quick feature.
+* Add - Added "View Quote" button in the success message.
+* Add - Added Product image in the emails.
+* Add - Added option to customize title and colors of place quote and update quote button.
+* Add - Added option in rule to display quote button for out of stock products only.
+* Feature - Option to enable quote button for specific product variations.
+* Fix - Fixed bug with email template overriding issue.
+* Add - Added new hooks and actions.
+* Add - Made add to quote button translatable.
+* Update - Inherit Role based prices on quote page.
+* Update - Inherit Role based B2B prices on quote page.
+* Update - Inherit Wholesale tier prices on quote page.
+* Fix - Minor bug fixing.
+
+
+2021-04-30 - version 2.3.0
+* Added the feature of offered price increase by percentage.
+* Added the field type for terms and conditions.
+* Fixed the issue of offered price display including/excluding vat.
+* Fixed the issue of overriding templates in child themes.
+* Fixed the issue of price display in mini cart drop down.
+* Fixed the issue of button display according to menu order of quote rules.
+* Fixed the issue of products addons display with custom buttons.
+* included the SKU of products in request a quote page.
+* included the view file link in emails.
+* Added shortcode for mini quote basket.
+
+2021-03-10 - version 2.2.0
+* Added the compatibility with WooCommerce product addons plugin.
+
+2021-03-10 - version 2.1.5
+* Updated translation.
+
+2021-02-09 - version 2.1.4
+* Fixed the issue of hide price for selected products.
+* Fixed the issue of responsiveness of quote table in my-account.
+
+2021-01-27 - version 2.1.3
+* Fixed the issue of quote menu with page builders. 
+* Fixed the issue of custom button for products.
+* Included quote details in emails to customer.
+
+2021-01-22 - version 2.1.2
+* Included variation RFQ email.
+* Fixed add to quote success message issue.
+* Improved RFQ form responsive view.
+* Keep RFQ fields saved once filled while customer continue to shop.
+* Show mini quote basket to only those user rules where RFQ is enabled.
+* Improved page builder compatibility.
+
+2021-01-18 - version 2.1.1
+* Fixed the issue of redirect to quote page
+* Fixed the issue of remove product from mini-quote
+* Fixed the issue of error when menu is created
+* Fixed the issue of solution 2 and compatibility with builders
+* Fixed the issue of reCaptcha
+
+2021-01-15 - version 2.1.0
+* Changed email colors.
+* Feature: Ability to create a new quote for registered customers from the backend.
+* Bug: Fixed JS error from console.
+* Bug: Fixed file missing issue in customer quotes.
+* Fixed compatibility issue with previous submitted quotes in version 1.X.
+
+2021-01-14 - version 2.0.1
+* Fix the issue of quantity box in quote table.
+* Fix compatibility issue with wpml in post boxes of quote rules.
+
+2021-01-14 - version 2.0.0
+* Show offered price on quote page, my-account quotes details, emails and pdf download.
+* Convert quote into order, using the offered price. (Admin/Customer).
+* Option to display request a quote automatically on out of stock products.
+* Keep the quote saved when user logout and login into the account again.
+* Create quote from back end.
+* Create unlimited fields for request a quote form.
+* Option to exclude any variation from request a quote rule.
+* Show/Hide standard prices in quote page, my account quotes and quote emails.
+* Display products price total and tax at quote page.
+* Add statuses of quote status (Pending, In process, Accepted, Rejected, Cancelled, Converted to Order ).
+* Emails notification for quote status changes.
+* Option to override templates of emails, request a quote page, mini quote dropdown, quotes tables in emails and my-account and fields of quotes.
+* Bug fixed and compatibility improvements with page builder plugins.
+
+2020-10-02 - version 1.5.4
+* Bug fixed with quote publication.
+
+
+2020-08-08 - version 1.5.3
+* Fix the issue of "Quote Button remain disabled after variation selected for option keep add to cart and add Quote Button".
+* Fix the issue of Quote Basket Drop down in menu ( Design + Remove Item ).
+* Added template for Request a Quote Button that resolved the issue of display of extra fields, messages and layout of Add to Quote form.
+* Fix the issue of variation image on request a Quote page and Quote Basket.
+* Added the template of WooCommerce for emails.
+
+2020-07-06 - version 1.5.2
+* Bug fixed with all products option.
+
+2020-06-21 - version 1.5.1
+* Issue fixed with SKU in emails.
+
+
+2020-06-19 - version 1.5.0
+* Add option to select multiple menus to show Quote Basket.
+* Add option to select style of Quote Basket (with drop-down or without drop-down).
+* Add option to Enable/Disable quote confirmation email to Customers.
+* Add custom text/Message to show for:
+   1 - When product added to quote
+   2 - Quote Submitted
+   3 - View Quote Basket Button Text
+* Add option to Enable/disable redirect to Quote page after a product added to Quote
+* Add option to Enable/Disable to Redirect to another page after Quote Submission
+* Add option to Enable/Disable Compatibility with page builders (ex. Elementor, Divi Builder etc)
+* Show full width of fields for Mobiles on Request a Quote page
+* Issue fixed "Failed Security Issue".
+* Issue fixed with quote page on responsive mode.
+* Fixed translation issues.
+
+2020-04-30 - version 1.4.1
+* issue fixed with version 1.4.0 when delete an item from quote delete all items.
+
+2020-04-26 - version 1.4.0
+* New feature added, Keep or replace add to cart button with a new custom button and add a custom link for that button.
+* Fixed issue with guest user add to quote with WP Engine hosting.
+
+2020-03-30 - version 1.3.4
+* Fix CSS conflict with drop downs in admin panel.
+* Fix issue with the mini quote basket count.
+
+2020-03-10 - version 1.3.3
+* Duplicate add to quote button and quantity field on product page issue fixed.
+
+
+2019-02-20 - version 1.3.2
+* Fix website speed issue.
+* Option to choose All Products.
+* Option to send copy of quote email to customer.
+* Fix issue with the variations.
+* Option to add multiple admin/shop manager email address to receive quote emails.
+
+2019-12-31 - version 1.3.1
+* Minor bug fixed with the Request a Quote Form.
+
+
+2019-12-29 - version 1.3.0
+* Ajax add to quote.
+* Customisable form fields.
+* SKU in Quote
+* Variation add to quote issue fixed.
+* Quote # in the quote.
+* Google reCaptcha option.
+* Compatibility with WooCommerce Product Addons Plugin.
+
+2019-11-23 - version 1.2.0
+* Fix some design issue.
+* Add option in admin to choose menu where to show mini quote basket.
+
+2019-11-01 - version 1.1.0
+* Typo issue fixed in quote basket.
+* Issue fix with deletion from quote basket.
+
+2019-10-04 - version 1.0.0
+* Initial release of the plugin.
+
